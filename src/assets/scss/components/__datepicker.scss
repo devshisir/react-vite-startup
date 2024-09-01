@@ -1,0 +1,127 @@
+.ant-picker {
+    padding: 0px !important;
+    height: 66px;
+    background: #F7F8FA;
+    border-radius: 15px;
+    border: none;
+
+    &:focus,
+    &:hover {
+        box-shadow: none !important;
+        outline: none !important;
+        background: #F7F8FA !important;
+    }
+
+    .ant-picker-input {
+        height: 100%;
+        padding: 0px 15px 0px 24px;
+
+        input {
+            color: #2176FF !important;
+            font-family: "Nunito", sans-serif !important;
+            font-weight: 700 !important;
+            font-size: 16px !important;
+            padding-top: 4px;
+        }
+
+        .ant-picker-suffix {
+            margin-inline-start: 0px;
+
+            svg {
+                height: 18px;
+                width: 18px;
+            }
+        }
+
+        .ant-picker-clear {
+            color: #989CAC;
+            right: 14px;
+
+            &:hover {
+                color: #E80B0B;
+            }
+
+            svg {
+                height: 18px;
+                width: 18px;
+            }
+        }
+    }
+}
+
+.ant-picker-dropdown {
+    .ant-picker-content th {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .ant-picker-cell {
+        font-weight: 600 !important;
+        font-size: 14px;
+    }
+}
+
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected:not(.ant-picker-cell-disabled) .ant-picker-cell-inner,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-disabled) .ant-picker-cell-inner,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-disabled) .ant-picker-cell-inner {
+    border-radius: 30px;
+}
+
+.ant-picker-dropdown .ant-picker-cell:hover:not(.ant-picker-cell-in-view) .ant-picker-cell-inner,
+.ant-picker-dropdown .ant-picker-cell:hover:not(.ant-picker-cell-selected):not(.ant-picker-cell-range-start):not(.ant-picker-cell-range-end) .ant-picker-cell-inner {
+    background: rgb(234, 242, 254);
+    color: #2176FF;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.ant-picker-cell-today {
+
+
+    .ant-picker-cell-inner {
+        color: #2176FF;
+
+        &::before {
+            border-radius: 30px !important;
+        }
+    }
+}
+
+.antform_float.datepicker.withIcon {
+    .ant-picker-input {
+        padding-left: 0px !important;
+    }
+
+    .label {
+        left: 0px !important;
+    }
+}
+
+// range picker
+.ant-picker-range {
+    padding-right: 15px !important;
+
+    .ant-picker-suffix {
+        svg {
+            height: 18px;
+            width: 18px;
+        }
+    }
+
+    .ant-picker-clear {
+        right: 14px;
+
+        &:hover {
+            color: #E80B0B;
+        }
+
+        svg {
+            height: 18px;
+            width: 18px;
+        }
+    }
+}
+
+.ant-picker-active-bar {
+    left: 8px;
+}

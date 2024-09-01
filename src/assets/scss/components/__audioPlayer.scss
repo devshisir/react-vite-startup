@@ -1,0 +1,62 @@
+.customAudio_player {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: none !important;
+    border: 1px solid #F2F3F6;
+
+    .rhap_additional-controls {
+        display: none;
+    }
+
+    .rhap_main-controls {
+        svg {
+            path {
+                fill: #2176FF;
+            }
+        }
+    }
+
+    .rhap_volume-bar {
+        background: #EAF2FE;
+    }
+
+    .rhap_volume-indicator {
+        background: #2176FF;
+    }
+
+    .rhap_volume-button {
+        svg {
+            path {
+                fill: #313A5A;
+            }
+        }
+    }
+
+    .rhap_download-progress {
+        background-color: #EAF2FE;
+    }
+
+    .rhap_progress-indicator {
+        background: #2176FF;
+    }
+
+    .rhap_progress-filled {
+        background-color: #2176FF;
+    }
+
+    .rhap_time {
+        color: #313A5A;
+        font-weight: 700;
+        font-size: 13px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .rhap_controls-section {
+        flex: none;
+    }
+
+    .rhap_volume-controls {
+        display: none;
+    }
+}

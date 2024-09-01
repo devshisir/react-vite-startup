@@ -1,0 +1,67 @@
+.ant-table {
+    scrollbar-color: #5a617bc5;
+
+    .ant-table-container {
+        &::before {
+            display: none;
+        }
+
+        &::after {
+            display: none;
+        }
+
+        .ant-table-content {
+
+            .ant-table-cell {}
+
+            .ant-table-thead {
+                .ant-table-cell {
+                    // text-wrap: nowrap;
+                    background-color: transparent;
+                    font-size: 12px;
+                    font-weight: 800;
+                    color: #7b8cb5;
+                    border-color: #eff0f4;
+                    padding-bottom: 18px;
+
+                    &::before {
+                        display: none;
+                    }
+
+                }
+            }
+
+            .ant-table-tbody {
+                .ant-table-cell {
+                    color: #313a5a;
+                    font-weight: 600;
+                    font-size: 15px;
+                    // text-wrap: wrap;
+                }
+            }
+        }
+    }
+}
+
+.ant-table-wrapper .ant-table {
+    scrollbar-color: inherit !important;
+}
+
+.ant-table-content::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+    background-color: #F7F8FA;
+    cursor: pointer;
+}
+
+.ant-table-content::-webkit-scrollbar-track {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.ant-table-content::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background-color: #5a617bc5;
+    outline: none;
+    cursor: pointer;
+}

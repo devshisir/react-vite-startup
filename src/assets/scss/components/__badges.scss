@@ -1,0 +1,41 @@
+.ant-badge.ant-badge-status .ant-badge-status-dot {
+    width: 12px;
+    height: 12px;
+
+
+}
+
+.ant-badge-status-text {
+    font-size: 14px !important;
+    padding-left: 3px;
+}
+
+.ant-badge-status.success {
+    .ant-badge-status-text {
+        color: #009906;
+    }
+}
+
+.ant-badge-status.error {
+    .ant-badge-status-text {
+        color: #e80b0b;
+    }
+}
+
+.ant-badge-status.default {
+    .ant-badge-status-text {
+        color: #7B8CB5;
+    }
+}
+
+.ant-badge-status.processing {
+    .ant-badge-status-text {
+        color: #2176ff;
+    }
+}
+
+.ant-badge-status.warning {
+    .ant-badge-status-text {
+        color: #f79824;
+    }
+}

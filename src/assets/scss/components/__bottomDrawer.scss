@@ -1,0 +1,29 @@
+.bottomDrawerComponent {
+    .ant-drawer-header-title {
+        flex-direction: row-reverse;
+    }
+
+    .ant-drawer-title {
+        font-weight: 700;
+        font-size: 17px;
+        color: #313A5A;
+    }
+
+    .ant-drawer-footer {
+        border: none;
+    }
+
+    .ant-drawer-header {
+        padding: 14px 20px;
+    }
+
+    .ant-drawer-body {
+        padding: 14px;
+    }
+
+    .ant-drawer-close {
+        width: auto;
+        height: auto;
+        border-radius: 30px;
+    }
+}

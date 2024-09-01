@@ -1,0 +1,51 @@
+.ant-modal-mask {
+    background-color: rgb(0 0 0 / 24%) !important;
+}
+
+.ConfirmModal {
+    .ant-modal-close {
+        height: auto !important;
+        width: auto !important;
+
+        &:hover {
+            background-color: transparent !important;
+            box-shadow: none;
+            outline: none;
+        }
+    }
+
+    .ant-modal-content {
+        padding: 20px 30px 30px 30px;
+        border-radius: 15px;
+
+        .ant-modal-header {
+            margin-bottom: 5px;
+        }
+    }
+
+    .ant-modal-footer {
+        margin-top: 30px;
+    }
+}
+
+.masterModal {
+    .ant-modal-close {
+        height: auto !important;
+        width: auto !important;
+
+        &:hover {
+            background-color: transparent !important;
+            box-shadow: none;
+            outline: none;
+        }
+    }
+
+    .ant-modal-content {
+        padding: 20px 30px 30px 30px;
+        border-radius: 15px;
+
+        .ant-modal-header {
+            margin-bottom: 5px;
+        }
+    }
+}

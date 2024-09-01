@@ -1,0 +1,100 @@
+.WaveWrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    --boxSize: 4px;
+    --gutter: 4px;
+    width: calc((var(--boxSize) + var(--gutter)) * 5);
+
+    .singleWave {
+        transform: scaleY(.4);
+        height: 100%;
+        width: var(--boxSize);
+        background: #E80B0B;
+        animation-duration: 1.8s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        border-radius: 8px;
+    }
+
+    &:hover,
+    &:focus {
+        .singleWave {
+            background-color: #fff;
+        }
+    }
+
+    .wave1 {
+        animation-name: quiet;
+    }
+
+    .wave2 {
+        animation-name: normal;
+    }
+
+    .wave3 {
+        animation-name: quiet;
+    }
+
+    .wave4 {
+        animation-name: loud;
+    }
+
+    .wave5 {
+        animation-name: quiet;
+    }
+}
+
+.WaveButton {
+
+    &:hover,
+    &:focus {
+        .WaveWrapper {
+            .singleWave {
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+@keyframes quiet {
+    25% {
+        transform: scaleY(.4);
+    }
+
+    50% {
+        transform: scaleY(.2);
+    }
+
+    75% {
+        transform: scaleY(.5);
+    }
+}
+
+@keyframes normal {
+    25% {
+        transform: scaleY(1);
+    }
+
+    50% {
+        transform: scaleY(.3);
+    }
+
+    75% {
+        transform: scaleY(.4);
+    }
+}
+
+@keyframes loud {
+    25% {
+        transform: scaleY(1);
+    }
+
+    50% {
+        transform: scaleY(.3);
+    }
+
+    75% {
+        transform: scaleY(1);
+    }
+}

@@ -1,0 +1,10 @@
+@media only screen and (max-width: 650px) {
+    .headerWrapper {
+        width: 100%;
+
+        .ant-space-item:first-child {
+            width: 100%;
+            display: block;
+        }
+    }
+}

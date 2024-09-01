@@ -1,0 +1,55 @@
+.ant-notification {
+    font-family: "Nunito", sans-serif !important;
+}
+
+.ant-notification-notice.ant-notification-notice-success {
+    background-color: #009906;
+    border-radius: 8px;
+
+    .ant-notification-notice-content {
+        .ant-notification-notice-message {
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.ant-notification-notice.ant-notification-notice-warning {
+    background-color: #F79824;
+    border-radius: 8px;
+
+    .ant-notification-notice-content {
+        .ant-notification-notice-message {
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.ant-notification-notice.ant-notification-notice-error {
+    background-color: #E80B0B;
+    border-radius: 8px;
+
+    .ant-notification-notice-content {
+        .ant-notification-notice-message {
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.ant-notification-notice.ant-notification-notice-info {
+    background-color: #17a2b8;
+    border-radius: 8px;
+
+    .ant-notification-notice-content {
+        .ant-notification-notice-message {
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+    }
+}

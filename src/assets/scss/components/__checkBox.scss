@@ -1,0 +1,31 @@
+.ant-checkbox-wrapper {
+    >span {
+        font-weight: 600;
+    }
+
+    .ant-checkbox-inner {
+        &::after {
+            top: 45%;
+        }
+    }
+}
+
+.ant-checkbox-wrapper.circleCheck {
+    .ant-checkbox-inner {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+
+        &::after {
+            inset-inline-start: 31%;
+        }
+    }
+}
+
+.ant-switch {
+    background: #00000040;
+
+    .ant-switch-inner {
+        font-weight: 600;
+    }
+}

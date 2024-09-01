@@ -1,0 +1,13 @@
+.customRadio {
+    .ant-radio.ant-wave-target {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .ant-radio-inner {
+        background-color: #F7F8FA;
+        border: 1px solid #F2F3F6;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+}

@@ -1,0 +1,32 @@
+.ant-dropdown {
+    z-index: 9999;
+}
+
+.ant-dropdown-menu {
+    padding: 10px 10px !important;
+    min-width: 200px;
+
+    .ant-dropdown-menu-item-icon {
+        min-width: 25px !important;
+    }
+
+    .ant-dropdown-menu-item {
+        padding: 10px 11px !important;
+        border-radius: 10px !important;
+        margin-bottom: 5px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+
+        .ant-dropdown-menu-title-content {
+            font-weight: bold;
+            color: #5A617B;
+        }
+    }
+
+    .ant-dropdown-menu-item-divider {
+        background-color: #F2F3F6 !important;
+        margin: 4px 0px !important;
+    }
+}

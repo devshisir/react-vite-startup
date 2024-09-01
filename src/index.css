@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: "Inter", sans-serif;
+}
+html,body{
+    font-family: "Inter", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Inter", sans-serif;
+}
+ul,li{
+    font-family: "Inter", sans-serif;
+}
+.ant-typography{
+    font-family: "Inter", sans-serif;
+}

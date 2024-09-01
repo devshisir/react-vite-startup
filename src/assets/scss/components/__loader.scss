@@ -1,0 +1,17 @@
+.ant-spin-fullscreen {
+    background-color: #ffffff85;
+    backdrop-filter: blur(5px);
+}
+
+.akprogress {
+    .ant-progress-text {
+        font-weight: 700;
+        font-size: 15px;
+        margin-left: 15px;
+
+        .anticon {
+            display: none;
+        }
+    }
+
+}

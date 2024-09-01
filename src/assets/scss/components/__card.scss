@@ -1,0 +1,26 @@
+.ant-card-body {
+    padding: 0px !important;
+}
+
+.ant-card-hoverable {
+    transition: all 0.4s;
+
+    &:hover {
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.ant-card-head {
+    padding: 20px 30px !important;
+}
+
+.ant-card-actions {
+    border-top: 1px solid #E5E5E5 !important;
+    padding: 5px 0px !important;
+}
+
+.ant-card-head-title {
+    font-weight: 800;
+    font-size: 24px;
+    color: #313A5A;
+}

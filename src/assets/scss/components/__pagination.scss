@@ -1,0 +1,19 @@
+.ant-pagination {
+    @apply font-bold;
+
+    .ant-pagination-item {
+        border: none;
+    }
+}
+
+.ant-pagination .ant-pagination-item-active {
+    a {
+        color: #fff;
+    }
+}
+
+.ant-pagination .ant-pagination-item:not(.ant-pagination-item-active):hover {
+    a {
+        @apply text-brand-100 font-bold
+    }
+}
